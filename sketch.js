@@ -59,10 +59,10 @@ function setup() {
 }
 
 function draw() {
-  background(189);
+  background(backgroundImg);
 
   //write a correct line of code to display the background image
-    image(backgroundImg, 0, 0, width, height);
+    
 
   Engine.update(engine);
 
